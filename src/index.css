@@ -1,0 +1,4 @@
+/* In your CSS or global styles */
+body, html, #root {
+  overflow-x: hidden;
+}

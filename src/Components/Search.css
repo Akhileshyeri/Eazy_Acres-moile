@@ -1,0 +1,49 @@
+/* Tabs */
+.tabs-container .tab-button {
+  flex: 1;
+  padding: 10px 0;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 5px;
+  color: white;
+  transition: all 0.3s;
+}
+
+.tabs-container .tab-button.active {
+  font-weight: bold;
+  background-color: white;
+  color: #005CA8;
+}
+
+/* Search input */
+.search-input-container input::placeholder {
+  color: #999;
+  font-size: 14px;
+}
+
+.search-input-container .icon-search {
+  color: #555;
+}
+
+.search-input-container .icon-cancel:hover {
+  color: #cc0000;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .search-input-container {
+    padding: 6px 10px;
+  }
+
+  .search-input-container input {
+    font-size: 13px;
+    padding: 6px;
+  }
+
+  .tabs-container .tab-button {
+    font-size: 13px;
+    padding: 8px 0;
+  }
+}
